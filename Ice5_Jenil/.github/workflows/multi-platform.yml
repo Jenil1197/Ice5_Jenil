@@ -1,3 +1,5 @@
+## YAML Template.
+---
 name: Workflow 2 - Multi-Platform Testing
 
 on:
@@ -58,5 +60,3 @@ jobs:
         run: |
           "Hello from Windows!" | Out-File -FilePath os-output.txt -Encoding utf8
           Get-Content os-output.txt
-## YAML Template.
----
